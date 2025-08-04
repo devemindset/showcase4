@@ -71,7 +71,7 @@ export default function SidebarNav() {
         {open && (
           <motion.div initial={{x:'100%'}} animate={{x:0}} exit={{x:'100%'}} transition={{duration:0.3}} className="lg:hidden fixed top-0 right-0 w-[50%] h-full bg-[var(--background-element)] text-white z-50 flex flex-col pt-10 items-center space-y-5">
             <Image src="./template_4/my-profile-img.jpg" alt="James Smith" width={80} height={80} className="rounded-full border-4" style={{borderColor:"var(--border-color)"}} />
-            <span className="font-semibold text-lg">James Smith</span>
+            <span className="font-semibold text-lg">OakNest</span>
 
             <nav>
               <ul className="flex flex-col space-y-1 text-sm">

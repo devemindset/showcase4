@@ -43,7 +43,7 @@ const Hero: FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.6 }}
         >
-          Building Ideas Into Reality.
+          OakNest
         </motion.h1>
 
         <motion.h3
@@ -56,7 +56,7 @@ const Hero: FC = () => {
           <TypeAnimation
             sequence={[
               "Modern design.", 2000,
-              "Timeless impact.", 2000,
+              "Made to last.", 2000,
              
             ]}
             wrapper="span"
