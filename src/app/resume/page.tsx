@@ -1,7 +1,8 @@
 import type { NextPage } from "next";
-import Header from "../../components/template_3/Header";
-import Footer from "../../components/template_3/Footer";
-import ResumeList from "../../components/template_3/ResumeList";
+import SidebarNav from "../../components/Header";
+import ResumeList from "../../components/ResumeList";
+import Footer from "../../components/Footer";
+
 
 
 
@@ -9,7 +10,7 @@ const Page: NextPage = () => {
     
   return (
     <>
-    <Header />
+    <SidebarNav />
     <ResumeList />
     <Footer />
     </>

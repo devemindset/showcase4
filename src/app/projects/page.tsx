@@ -1,14 +1,15 @@
 import type { NextPage } from "next";
-import Header from "../../components/template_3/Header";
-import Footer from "../../components/template_3/Footer";
-import ProductList from "../../components/template_3/ProductList";
+import SidebarNav from "../../components/Header";
+import ProductList from "../../components/ProductList";
+import Footer from "../../components/Footer";
+
 
 
 const Page: NextPage = () => {
     
   return (
     <>
-    <Header />
+    <SidebarNav />
     <ProductList />
     <Footer />
     </>

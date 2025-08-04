@@ -1,12 +1,13 @@
 import type { NextPage } from "next";
-import Header from "../../components/template_3/Header";
-import Footer from "../../components/template_3/Footer";
-import About from "../../components/template_3/About";
+
+import About from "../../components/About";
+import Footer from "../../components/Footer";
+import SidebarNav from "../../components/Header";
 
 const Page: NextPage = () => {
   return (
     <>
-    <Header />
+    <SidebarNav />
     <About />
     <Footer />
     </>

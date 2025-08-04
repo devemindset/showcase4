@@ -1,8 +1,9 @@
 import type { NextPage } from "next";
-import Header from "../../components/template_3/Header";
-import Footer from "../../components/template_3/Footer";
-import Contact from "../../components/template_3/Contact";
-import ContactForm from "../../components/template_3/ContactForm";
+import ContactForm from "../../components/ContactForm";
+import Footer from "../../components/Footer";
+import SidebarNav from "../../components/Header";
+import Contact from "../../components/Contact";
+
 
 
 const Page: NextPage = () => {
@@ -10,7 +11,7 @@ const Page: NextPage = () => {
     
   return (
     <>
-    <Header />
+    <SidebarNav />
     <Contact />
     <ContactForm />
     <Footer />

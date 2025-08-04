@@ -55,7 +55,7 @@ export default function PageLoader() {
   }, [pathname]);
 
   return loading ? (
-    <div className="fixed inset-0 flex items-center justify-center bg-white/60 z-[9999]">
+    <div className="fixed inset-0 flex items-center justify-center bg-white/30 z-[9999]">
   <div className="relative">
     <div className="w-20 h-1 bg-[var(--source-1)] rounded-full animate-pulse-glow" />
     <div className="absolute inset-0 w-20 h-1 bg-[var(--source-1)] opacity-50 blur-md" />
